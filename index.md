@@ -13,7 +13,9 @@ I created this meme in `R`, using the [`magick package`](https://cran.r-project.
 1. Read in the images
 ```{r}
 # Square 1 - regular Winnie the Pooh
+
 Winnie.Reg=image_read("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2I24KGTXqQF0nKLyB-7O0JKKVBZkzPqp5r77rbW8xoflclrA0A_bmBNrswCtLsi5hOGY&usqp=CAU")
+
 
 # Square 2 - Tuxedo Winnie the Pooh
 
@@ -32,6 +34,7 @@ iNZ=image_blank(width=300,
                  size=50,
                  font="Impact",
                  gravity="center")
+
 
 # Square 4 - 2nd comment
 
