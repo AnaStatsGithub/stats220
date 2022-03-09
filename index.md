@@ -4,7 +4,7 @@ Your index.md file needs contain information about the meme you created, for exa
 
 # My Meme
 
-## This is my meme
+## *This is my meme*
 ![](my_meme.png)
 
 
