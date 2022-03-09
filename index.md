@@ -2,12 +2,20 @@ Edit the index.md file so that it displays a new original meme that you have cre
 Your index.md file needs contain information about the meme you created, for example, what the motivation was, and how your meme is new/original 
   (e.g. an adaption of an existing meme format).
 
-# My meme
-I created this meme in R, using the [{magick package}](https://cran.r-project.org/web/packages/magick/vignettes/intro.html).
+# The story of my meme
 
+## This my meme
+![](my_meme.pmg)
+
+
+## How I made this meme
+I created this meme in R, using the [magick package](https://cran.r-project.org/web/packages/magick/vignettes/intro.html).
+
+
+## Why I made this meme
 Either one or both of your README.md and index.md files needs text that demonstrates at least the following Markdown syntax:
 
-1/2 use of two different levels of headers
+// 2/2 use of two different levels of headers
 0/2 use of two different types of bullet points (ordered or unordered)
 0/2 use of bold and italics
 1/2 use of links to other websites
