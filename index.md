@@ -1,7 +1,3 @@
-Edit the index.md file so that it [displays a new original meme] that you have created using R code and the {magick} package, as well as [the R code you used to create it.]
-Your index.md file needs contain information about the meme you created, for example, what the motivation was, and how your meme is new/original 
-  (e.g. an adaption of an existing meme format).
-
 # My Meme
 
 ## *This is my meme*
@@ -65,14 +61,3 @@ image_write(meme, "my_meme.png")
 - This is a popular meme format that I saw while taking a break in between lectures
 - I sent the original meme to my boyfriend, who laughed, inspiring me to make my own
 - The switch from `STATS101` to other `STATS` courses was a big step up, and the change in programs we use for statistical analysis reflects that. The two versions of Winnie represents this step from the basics of iNZight, to the complexity of RStudio
-
-Either one or both of your README.md and index.md files needs text that demonstrates at least the following Markdown syntax:
-
-// 2/2 use of two different levels of headers
-// 2/2 use of two different types of bullet points (ordered or unordered)
-// 2/2 use of **bold** and *italics*
-1/2 use of links to other websites
-// 3/2 use of images, including those within your repository and those accessed from other websites
-// 2/2 use of `code fences`
-
-
