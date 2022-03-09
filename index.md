@@ -1,11 +1,11 @@
-Edit the index.md file so that it displays a new original meme that you have created using R code and the {magick} package, as well as the R code you used to create it.
+Edit the index.md file so that it [displays a new original meme] that you have created using R code and the {magick} package, as well as [the R code you used to create it.]
 Your index.md file needs contain information about the meme you created, for example, what the motivation was, and how your meme is new/original 
   (e.g. an adaption of an existing meme format).
 
 # The story of my meme
 
 ## This my meme
-![](my_meme.pmg)
+![](my_meme.png)
 
 
 ## How I made this meme
@@ -17,7 +17,7 @@ Either one or both of your README.md and index.md files needs text that demonstr
 
 // 2/2 use of two different levels of headers
 0/2 use of two different types of bullet points (ordered or unordered)
-0/2 use of bold and italics
+0/2 use of **bold** and *italics*
 1/2 use of links to other websites
-0/2 use of images, including those within your repository and those accessed from other websites
-0/2 use of code fences
+1/2 use of images, including those within your repository and those accessed from other websites
+0/2 use of `code fences`
