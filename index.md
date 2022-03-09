@@ -11,24 +11,21 @@ Your index.md file needs contain information about the meme you created, for exa
 ## How I made this meme
 I created this meme in `R`, using the [`magick package`](https://cran.r-project.org/web/packages/magick/vignettes/intro.html).
 1. Read in the **images**
-```{r}
+```r
 # Square 1 - regular Winnie the Pooh
-
 Winnie.Reg=image_read("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2I24KGTXqQF0nKLyB-7O0JKKVBZkzPqp5r77rbW8xoflclrA0A_bmBNrswCtLsi5hOGY&usqp=CAU")
 ```
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2I24KGTXqQF0nKLyB-7O0JKKVBZkzPqp5r77rbW8xoflclrA0A_bmBNrswCtLsi5hOGY&usqp=CAU)
-```{r}
+```r
 # Square 2 - Tuxedo Winnie the Pooh
-
 Winnie.Tux=image_read("https://i.kym-cdn.com/entries/icons/original/000/029/060/cover3.jpg")%>%
   image_scale(300)
 ```
 ![](https://i.kym-cdn.com/entries/icons/original/000/029/060/cover3.jpg)
 
 2. Create the **word squares**
-```{r}
+```r
 # Square 3 - 1st comment
-
 iNZ=image_blank(width=300,
                 height=180,
                 color = "#FFFFFF")%>%
@@ -39,7 +36,6 @@ iNZ=image_blank(width=300,
                  gravity="center")
 
 # Square 4 - 2nd comment
-
 RSt=image_blank(width=300,
                 height=180,
                 color = "#FFFFFF")%>%
@@ -50,16 +46,15 @@ RSt=image_blank(width=300,
                  gravity="center")
 ```
 3. **Combine** the four squares
-```{r}
+```r
 # Adding it all together
 
 top=image_append(c(Winnie.Reg, iNZ))
-
 bottom=image_append(c(Winnie.Tux,RSt))
-
 meme=c(top, bottom)%>%
   image_append(stack=TRUE)
 
+# Saving as png file
 image_write(meme, "my_meme.png")
 ```
 4. ***Ta-da!***
@@ -67,15 +62,15 @@ image_write(meme, "my_meme.png")
 ![](my_meme.png)
 
 ## Why I made this meme
-
+- This is a popular meme format
 
 Either one or both of your README.md and index.md files needs text that demonstrates at least the following Markdown syntax:
 
 // 2/2 use of two different levels of headers
-0/2 use of two different types of bullet points (ordered or unordered)
-0/2 use of **bold** and *italics*
+1/2 use of two different types of bullet points (ordered or unordered)
+// 2/2 use of **bold** and *italics*
 1/2 use of links to other websites
-3/2 use of images, including those within your repository and those accessed from other websites
+// 3/2 use of images, including those within your repository and those accessed from other websites
 // 2/2 use of `code fences`
 
 
