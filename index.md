@@ -15,13 +15,15 @@ I created this meme in `R`, using the [`magick package`](https://cran.r-project.
 # Square 1 - regular Winnie the Pooh
 
 Winnie.Reg=image_read("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2I24KGTXqQF0nKLyB-7O0JKKVBZkzPqp5r77rbW8xoflclrA0A_bmBNrswCtLsi5hOGY&usqp=CAU")
-
-
+```
+![]https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2I24KGTXqQF0nKLyB-7O0JKKVBZkzPqp5r77rbW8xoflclrA0A_bmBNrswCtLsi5hOGY&usqp=CAU
+```{r}
 # Square 2 - Tuxedo Winnie the Pooh
 
 Winnie.Tux=image_read("https://i.kym-cdn.com/entries/icons/original/000/029/060/cover3.jpg")%>%
   image_scale(300)
 ```
+![]https://i.kym-cdn.com/entries/icons/original/000/029/060/cover3.jpg
 2. Create the word squares
 ```{r}
 # Square 3 - 1st comment
@@ -71,3 +73,5 @@ Either one or both of your README.md and index.md files needs text that demonstr
 1/2 use of links to other websites
 1/2 use of images, including those within your repository and those accessed from other websites
 // 2/2 use of `code fences`
+
+
